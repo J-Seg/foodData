@@ -4,6 +4,23 @@ Location = []
 filename = 'Food & Storage.txt' #file whre info is stored
 foodStorage = True
 
+#first thing to launch
+def start():
+    print("""---Food Database--- /n
+             Welcome to the Main Menu /n
+        Please select what you want to do
+            1. Add Food
+            2. View List
+            3. Delete Item""")
+    choice = input('>')
+        while choice != '1' || '2' || '3'
+            print('Please make a choice')
+        elif choice = 1
+            foodStorage()
+        elif choice = 2
+
+    
+def foodStorage():
 while foodStorage == True:
     #adding food and location info 
     print("Please enter the food you want to store: ")
